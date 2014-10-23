@@ -18,6 +18,4 @@
 # Remember how range can be used to create the list [2,4,6,8]
 # When complete, commit to github and submit a pull request!
 
-a = '\n'.join([str(i) for i in range(2,10,2)])
-a += '\nwho do we appreciate?'
-print a
+print '\n'.join([str(i) for i in range(2,10,2)]), '\nwho do we appreciate'
